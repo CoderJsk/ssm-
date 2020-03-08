@@ -45,6 +45,7 @@ public class AccountController {
     accountService.saveAccount(account);
     response.sendRedirect(request.getContextPath()+"/account/findAll");
 
+    System.out.println("------------------------");
 
   }
 }
