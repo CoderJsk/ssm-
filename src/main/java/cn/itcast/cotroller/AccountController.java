@@ -46,6 +46,7 @@ public class AccountController {
     response.sendRedirect(request.getContextPath()+"/account/findAll");
 
     System.out.println("------------------------");
+    System.out.println("--------------------------------------------------");
 
   }
 }
